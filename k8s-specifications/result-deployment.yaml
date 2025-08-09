@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: prateekdocker/voting-result:2
+      - image: prateekdocker/voting-result:3
         name: result
         ports:
         - containerPort: 80
