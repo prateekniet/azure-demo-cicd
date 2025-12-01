@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')  // Stored in Jenkins
-        DOCKER_IMAGE = "prateekdocker/new-po:${BUILD_NUMBER}"
+        DOCKER_IMAGE = "prateekdocker/qa:${BUILD_NUMBER}"
     }
 
     stages {
