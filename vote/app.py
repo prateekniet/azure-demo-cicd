@@ -28,7 +28,6 @@ def hello():
         voter_id = hex(random.getrandbits(64))[2:-1]
 
     vote = None
-
     if request.method == 'POST':
         redis = get_redis()
         vote = request.form['vote']
