@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: prateekdocker/repo-vote:4
+      - image: prateekdocker/repo-vote:5
         name: vote
         ports:
         - containerPort: 80
